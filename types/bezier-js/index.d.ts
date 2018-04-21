@@ -202,6 +202,4 @@ declare namespace BezierJs {
     }
 }
 
-declare module "bezier-js" {
-  export = BezierJs.Bezier;
-}
+export default BezierJs.Bezier;
